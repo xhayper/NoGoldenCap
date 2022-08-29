@@ -27,7 +27,7 @@ public class Plugin: BaseUnityPlugin
     
     [HarmonyPatch(typeof(PlayerFleeceManager), nameof(PlayerFleeceManager.IncrementDamageModifier))]
     [HarmonyPrefix]
-    public static bool IncrementDamageModifierPrefix()
+    public static bool PlayerFleeceManager_IncrementDamageModifierPrefix()
     {
         if (DataManager.Instance.PlayerFleece != 1) return false;
         PlayerFleeceManager.damageMultiplier += 0.1f;
