@@ -1,8 +1,16 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{0E0E3F39-772F-48F7-924D-F9E346FAC308}") = "NoGoldenCap", "NoGoldenCap.csproj", "{1218A867-5CC5-42A6-ACCF-92190170B8A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1218A867-5CC5-42A6-ACCF-92190170B8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1218A867-5CC5-42A6-ACCF-92190170B8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1218A867-5CC5-42A6-ACCF-92190170B8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1218A867-5CC5-42A6-ACCF-92190170B8A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
